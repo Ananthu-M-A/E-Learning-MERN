@@ -24,7 +24,7 @@ app.use(session({
     },
 }));
 
-const Port = process.env.PORT;
-app.listen(Port, () => {
-    console.log(`Server Launched on Port ${Port}`);
+const port = process.env.PORT;
+app.listen(port, () => {
+    console.log(`Server Launched on Port ${port}`);
 });
