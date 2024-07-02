@@ -1,8 +1,12 @@
+import Courses from "../components/Courses"
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Courses course={"New"} />
+      <Courses course={"Popular"} />
+      <Courses course={"Recent"} />
+    </>
   )
 }
 
