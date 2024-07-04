@@ -5,7 +5,7 @@ interface CoursesProps {
 const Courses = (Props: CoursesProps) => {
     return (
         <>
-            {Props.course === "New" && <h1 className="px-3 py-1 text-2xl">Learn New Courses</h1>}
+            {Props.course === "New" && <h1 className="px-3 py-1 text-2xl mt-32">Learn New Courses</h1>}
             {Props.course === "Popular" && <h1 className="px-3 py-1 text-2xl">Popular Courses</h1>}
             {Props.course === "Recent" && <h1 className="px-3 py-1 text-2xl">Recently Visited</h1>}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 p-3">

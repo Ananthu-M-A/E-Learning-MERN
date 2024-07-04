@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="flex flex-wrap justify-between items-center w-full p-3 gap-4">
+        <div className="flex flex-wrap justify-between items-center w-full p-3 gap-4 bg-white fixed top-0 left-0">
             <div className="flex gap-2 items-center">
                 <h1 className="text-blue-700 text-xl md:text-2xl font-bold cursor-pointer">E-LEARNING</h1>
                 <button className="flex items-center text-blue-800 text-sm md:text-md font-semibold px-3 py-1 rounded border shadow border-blue-800 hover:shadow-black hover:text-blue-600">
