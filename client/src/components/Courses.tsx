@@ -13,10 +13,10 @@ const Courses = (Props: CoursesProps) => {
                     <div key={index} className="border-2 border-gray-200 p-2 rounded-2xl cursor-pointer hover:shadow-xl hover:shadow-black transition duration-500 ease-in-out">
                         <img className="rounded-xl" src="UoL-Campus-Header.png" alt="" />
                         <p className="text-sm font-semibold text-gray-500 p-1">
-                            University of London
+                            University of Knowledge
                         </p>
                         <h1 className="text-md font-semibold p-1">
-                            Bachelor of Science in Computer Science
+                            Diploma in Computer Science
                         </h1>
                         <p className="text-sm text-blue-700 p-1">
                             Learn a course
