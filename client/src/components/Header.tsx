@@ -42,7 +42,7 @@ const Header = () => {
             </div>
 
             <div className="flex border border-gray-300 rounded-3xl w-full md:w-1/3 lg:w-1/4 p-1">
-                <input className="w-full ml-2 mr-2" placeholder="What do you want to learn?" type="text" />
+                <input className="w-full ml-2 mr-2 focus:outline-none" placeholder="What do you want to learn?" type="text" />
                 <button className="bg-blue-600 rounded-3xl p-1" type="button">
                     <img className="w-6 md:w-7 p-1" src="search.png" alt="search" />
                 </button>
